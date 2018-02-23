@@ -25,20 +25,29 @@ p
     margin-top: 81px;
     width: 100%;
     height: 50px;
-    background: beige;
+    background: #B3DFDC;
     text-align: center;
     text-shadow: 1px 2px 1px white;
     padding-top: 15px;
 
 }
+c2
+{
+    color: white;
+}
+h1
+{
+    margin-top: 0px;
+}
 header
 {
-    border-radius: 25px;
+    
     top:0;
 	background:grey;
 	width:100%;
 	height:80px;
     position: fixed;
+
 }
 h2,.grid_6,.grid_4
 {
@@ -57,11 +66,29 @@ h2,.grid_6,.grid_4
     margin-top: 15px; 
     width:100%;
 }
+#sitelink
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+.c1
+{
+    color: white;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+#sitelink a
+{
+    color: blue;
+    text-decoration: none;
+}
 .grid_6
 {
     width:45%;
     border-radius: 25px;
-    border: 2px solid #e3e3e3;
+    border: 4px solid #e3e3e3;
     margin-top: 5px; 
     letter-spacing: 1px;
 }
@@ -125,6 +152,7 @@ footer
 	font-size: 40px;
 	text-decoration: none;
 	font-family: cursive;
+    margin-top: 0px;
 }
 #nav2
 {
@@ -185,7 +213,7 @@ footer
 }
 .li2:nth-child(1) a:before
 {
-    background:#3b5999;
+    background:#623B84;
 }
 .li2:nth-child(2) a:before
 {
@@ -193,13 +221,13 @@ footer
 }
 .li2:nth-child(3) a:before
 {
-    background:#3b5999;
+    background:#CE8181;
 }
 .li2:nth-child(4) a:before
 {
-    background:#3b5999;
+    background:#62CBC1;
 }
 .li2:nth-child(5) a:before
 {
-    background:#3b5999;
+    background:#749346;
 }
