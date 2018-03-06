@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Bootstrap</title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+		<!-- All Javascript at the bottom of the page for faster page loading -->
+
+		
+	</head>
+	<body class="container">
+	
+	<div class="container" id="main">
+
+       <header class="navbar navbar-inverse navbar-fixed-top">
+
+       	  <nav class="container">
+
+       	  	<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+ 
+       	  		<span class="icon-bar"></span>
+
+       	  		<span class="icon-bar"></span>
+
+       	  		<span class="icon-bar"></span>
+
+       	  	</button>
+
+       	  	<a class="navbar-brand" href="/"><img src="images/logo.png" alt="My Logo" id="logo"></a>
+
+       	  	<div class="nav-collapse collapse navbar-responsive-collapse">
+
+       	  		<ul class="nav navbar-nav">
+
+       	  			<li class="active">
+
+       	  				<a href="#"><span class="glyphicon glyphicon-home"> Home</a>
+
+       	  			</li>
+
+       	  			<li class="dropdown">
+
+       	  				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+
+                           <ul class="dropdown-menu pull-left">
+
+                           	<li>
+
+                           		<a href="#">hotel</a>
+
+                           	</li>
+
+                           	<li>
+
+                           		<a href="#">travel</a>
+
+                           	</li>
+
+                           	<li class="divider"></li>
+
+                           	<li class="dropdown-header">More services</li>
+
+                           	<li>
+
+                           		<a href="#">food</a>
+
+                           	</li>
+
+                           	
+                           </ul>
+       	  			</li>
+      
+       	  		</ul>
+
+       	  		
+                <ul class="nav navbar-nav pull-right">
+
+                             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                             </li>
+
+                             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                             </li>
+
+                </ul>
+
+                <form class="navbar-form pull-right">
+
+                <input type="text" class="form-control" placeholder="search" id="searchInput">
+
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+
+              </form>
+
+
+       	  	</div>
+
+       	  </nav>
+
+       </header>
+
+
+       <div class="carousel slide" id="myCarousel">
+		
+				<ol class="carousel-indicators">
+
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+
+				</ol>
+			
+				<div class="carousel-inner">
+
+					<div class="item active" id="slide1">
+
+						<div class="carousel-caption">
+
+							<h4>Mountain</h4>
+
+							<p>A mountain is a large natural rise of the Earth's surface that usually has a "summit" (the name for a mountain's top).</p>
+
+						</div>
+
+					</div>
+					
+					<div class="item" id="slide2">
+
+						<div class="carousel-caption">
+
+							<h4>River</h4>
+
+							<p>boats are the best, and frequently the only way, to properly see a destination.</p>
+
+						</div>
+
+					</div>
+					
+					<div class="item" id="slide3">
+
+						<div class="carousel-caption">
+
+							<h4>Cloud</h4>
+
+							<p>Clouds don’t simply exist by themselves. They are not only important as weather features, but have had a strong influence on poetry</p>
+
+						</div>
+
+					</div>
+
+				</div>
+				
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div>
+			
+
+       <div class="row" id="bigCallout">
+
+       	 <div class="alert alert-success alert-block fade-in" id="successAlert">
+
+       	 	<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+       	 	<h4>!!WELCOME!!</h4>
+       	 	<p>
+       	 		Welcome to my site.
+       	 	</p>
+
+       	 </div>
+
+       	 <div class="col-12">
+
+       	 	<div class="well well-small visible-sm">
+
+       	 		<a href="#" class="btn btn-large btn-block btn-default">
+
+       	 			<span class="glyphicon glyphicon-phone"></span> give us a call
+
+       	 		</a>
+       	 	</div>
+
+       	 	<div class="well">
+
+       	 		<div class="page-header">
+
+       	 			<h1>Tourism<small> live your dream</small></h1>
+
+       	 		</div>
+
+       	 		<p class="lead">
+
+       	 			You only have one life , live it to fullest and tour the world..
+              Happy travelling ..
+
+                </p>
+
+                <a href="#" class="btn btn-large btn-primary" id="alertMe">get started</a>
+
+                <a href="#" class="btn btn-large btn-link">locations</a>
+
+       	 	</div>
+
+       	 </div>
+
+       </div>
+
+
+    <hr>
+
+
+       <section class="row" id="moreInfo">
+
+        <section class="col-sm-6 pull-left c1">
+
+          <h3 class="lead">Hotels</h3>
+
+          <div class="Tabbable">
+
+            <ul class="nav nav-tabs">
+
+              <li class="active"><a href="#tab1" data-toggle="tab">places</a></li>
+
+              <li><a href="#tab2" data-toggle="tab">pictures</a></li>
+
+            </ul>
+
+            <div class="tab-content">
+
+              <div class="tab-pane" id="tab2">
+
+                <h4><span class="glyphicon glyphicon-map-marker"></span>Our location<small>our favourite spot</small></h4>
+
+                <p>
+                  I love to paint. It is my hobby. I paint with water colours. I like to paint beautiful landscapes. When we go on holidays to different places like hill stations, desert areas, river banks or the countryside, I always take my art material with me. I like to sit and paint a scenery as I watch it. The painting then is very vivid and comes alive. I find my hobby refreshing to me. I keep all my paintings carefully. I have participated in different art exhibitions and painting competitions at school and at state level events, and won prizes too.
+                </p>
+
+                <p>
+                  I love to paint. It is my hobby. I paint with water colours. I like to paint beautiful landscapes. When we go on holidays to different places like hill stations, desert areas, river banks or the countryside, I always take my art material with me. I like to sit and paint a scenery as I watch it. The painting then is very vivid and comes alive. I find my hobby refreshing to me. I keep all my paintings carefully. I have participated in different art exhibitions and painting competitions at school and at state level events, and won prizes too.
+                </p>
+
+             </div> 
+
+              <div class="tab-pane  active" id="tab1">
+
+                <h4>Hotels Details are Below</h4>
+
+                 <p>
+                  I love to paint. It is my hobby. I paint with water colours. I like to paint beautiful landscapes. When we go on holidays to different places like hill stations, desert areas, river banks or the countryside, I always take my art material with me. I like to sit and paint a scenery as I watch it. The painting then is very vivid and comes alive. I find my hobby refreshing to me. I keep all my paintings carefully. I have participated in different art exhibitions and painting competitions at school and at state level events, and won prizes too.
+                </p>
+
+                <p>
+                   I like to sit and paint a scenery as I watch it. The painting then is very vivid and comes alive. I find my hobby refreshing to me. I keep all my paintings carefully. I have participated in different art exhibitions and painting competitions at school and at state level events, and won prizes too.
+                </p>
+
+                <hr>
+
+                <a href="#myModal" role="button" class="btn btn-warning
+                " data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>
+                submit details
+                  </a>
+
+                  <div class="modal fade" id="myModal">
+
+                           <div class="modal-dialog">
+
+                            <div class="modal-content">
+
+                              <div class="modal-header">
+
+                                <button class="close" data-dismiss="modal">&times;</button>
+
+                                <h4 class="modal-title">Welcome</h4>
+
+                              </div>
+
+                              <div class="modal-body">
+
+                                <h4>Location Details</h4>
+
+                                <p>
+                                  Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery. 
+                                </p>
+
+                           <hr>
+
+                           <p><small class="text-muted">Terms and Conditions are applied.</small></p>
+                                     
+                                   <div class="modal-footer">
+
+                                     <button class="btn btn-default" data-dismiss="modal" type="button">close</button>
+                                   
+                                   </div>  
+
+                              </div>
+
+                            </div>
+
+                           </div>
+
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="col-sm-6 pull-right">
+
+          <h3 class="lead">More info</h3>
+
+          
+           <ul class="list-inline">
+
+              <li><a href="#" data-toggle="tooltip" data-placement="top" title="top!">Top</a></li>
+
+              <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="bottom!">Bottom</a></li>
+
+              <li><a href="#" data-toggle="tooltip" data-placement="left" title="left!">Left</a></li>
+
+              <li><a href="#" data-toggle="tooltip" data-placement="right" title="right!">Right</a></li>
+              </ul>
+          <div class="list-group" id="page1">
+
+            <a href="#" class="list-group-item">
+
+              <h4 class="list-group-item-heading">Mountain</h4>
+                     
+                     <p class="list-group-item-text p1">
+                     I like to sit and paint a scenery as I watch it. The painting then is very vivid and comes alive. I find my hobby refreshing to me. I keep all my paintings carefully. I have participated in different art exhibitions and painting competitions at school and at state level events, and won prizes too.
+                     </p>
+
+            </a>
+
+            <a href="#" class="list-group-item">
+
+              <h4 class="list-group-item-heading">River</h4>
+                     
+                     <p class="list-group-item-text p2">
+                        I like to sit and paint a scenery as I watch it. The painting then is very vivid and comes alive. I find my hobby refreshing to me. I keep all my paintings carefully. I have participated in different art exhibitions and painting competitions at school and at state level events, and won prizes too.
+                     </p>
+
+            </a>
+
+            <a href="#" class="list-group-item">
+
+              <h4 class="list-group-item-heading">Cloud</h4>
+                     
+                     <p class="list-group-item-text p3">
+                      I like to sit and paint a scenery as I watch it. The painting then is very vivid and comes alive. I find my hobby refreshing to me. I keep all my paintings carefully. I have participated in different art exhibitions and painting competitions at school and at state level events, and won prizes too.
+                     </p>
+
+            </a>
+
+          </div>
+
+        </section>
+
+       </section>
+
+       <hr>
+
+       <article class="container">
+
+        <h2>Places to visit</h2>
+
+                <p><strong>Note:</strong> The <strong>below</strong> locations are based on the demand..there are many more plaaces to visit in our site..click on the links for more details.</p>
+
+                   <div class="panel-group" id="accordion">
+
+                        <div class="panel panel-default ">
+
+                          <div class="panel-heading">
+
+                             <h4 class="panel-title">
+
+                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                             Mountain</a>
+
+                             </h4>
+
+                          </div>
+
+                           <div id="collapse1" class="panel-collapse collapse p2">
+
+                             <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              </div>
+
+                       </div>
+
+                     </div>
+
+                     <div class="panel panel-default">
+
+                         <div class="panel-heading">
+
+                           <h4 class="panel-title">
+
+                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">River</a>
+
+                           </h4>
+
+                      </div>
+
+                      <div id="collapse2" class="panel-collapse collapse p3">
+
+                       <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+
+                       </div>
+
+                      </div>
+
+                    <div class="panel panel-default">
+
+                       <div class="panel-heading">
+
+                          <h4 class="panel-title">
+
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">cloud</a>
+
+                           </h4>
+
+                       </div>
+
+                    <div id="collapse3" class="panel-collapse collapse p1">
+
+                     <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+
+                 </div>
+
+               </div>
+
+             </div> 
+
+          </article>
+
+       <hr>
+
+       <article class="row" id="featuresHeading">
+
+       	<div class="col-12">
+
+       		<h2>Varities</h2>
+
+       		<p class="lead">
+
+              There are varities of places where we had our hotels all across the world.
+
+       		</p>
+
+       	</div>
+
+       </article>
+
+       <article class="row" id="features">
+
+       	  <article class="col-sm-4 feature">
+
+       	  	<div class="panel">
+
+       	  		<div class="panel-heading">
+
+       	  			<h3 class="panel-title">Mountain</h3>
+
+       	  		</div>
+
+       	  		<img src="images/sm.jpeg" alt="html5" class="img-circle">
+
+       	  		<p>
+       	  			This paragraph belongs to mountain section.
+       	  		</p>
+
+       	  		<a href="#" target="_blank" class="btn btn-warning btn-block">hotels</a>
+
+       	  	</div>
+
+       	  </article>
+
+       	  <article class="col-sm-4 feature">
+
+       	  	<div class="panel">
+
+       	  		<div class="panel-heading">
+
+       	  			<h3 class="panel-title">Cloud</h3>
+
+       	  		</div>
+
+       	  		<img src="images/sm2.jpeg" alt="css" class="img-circle">
+
+       	  		<p>
+       	  			This paragraph originally belongs to cloud section.
+       	  		</p>
+
+       	  		<a href="#" target="_blank" class="btn btn-danger btn-block">travel</a>
+
+       	  	</div>
+
+       	  </article>
+
+         <article class="col-sm-4 feature">
+
+       	  	<div class="panel">
+
+       	  		<div class="panel-heading">
+
+       	  			<h3 class="panel-title">River</h3>
+
+       	  		</div>
+
+       	  		<img src="images/sm1.jpeg" alt="bootstrap" class="img-circle">
+
+       	  		<p>
+       	  			This paragraph truly belongs to river section.
+       	  		</p>
+
+       	  		<a href="#" target="_blank" class="btn btn-info btn-block">boats</a>
+
+       	  	</div>
+
+       	  </article>
+
+       </article>
+
+       
+
+
+       
+
+	</div>
+	<hr>
+	
+	<footer>
+
+		<section class="container">
+
+			<section class="row">
+
+				<section class="col-sm-2">
+
+					<h5>Copyrights &copy; 2018 Khushboo </h5>
+
+				</section>
+
+				<section class="col-sm-4">
+
+					<h5>About us</h5>
+
+					<p>
+                       Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery. 
+					</p>
+
+				</section>
+
+				<nav class="col-sm-2">
+
+					<h5>Navigation</h5>
+
+					<ul class="unstyled">
+
+						<li><a href="#">home</a></li>
+
+						<li><a href="#">services</a></li>
+
+						<li><a href="#">links</a></li>
+
+						<li><a href="#">contact</a></li>
+
+					</ul>
+
+				</nav>
+
+				<nav class="col-sm-2">
+
+					<h5>Follow us</h5>
+
+					<ul class="unstyled">
+
+						<li><a href="#">facebook</a></li>
+
+						<li><a href="#">twitter</a></li>
+
+						<li><a href="#">instagram</a></li>
+
+						<li><a href="#">google plus</a></li>
+
+					</ul>
+
+				</nav>
+
+				<section class="col-sm-2">
+
+					<h5>coded with <span class="glyphicon glyphicon-heart"></span>  by Khushboo</h5>
+				</section>
+
+			</section>
+
+		</section>
+
+	</footer>
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
+
